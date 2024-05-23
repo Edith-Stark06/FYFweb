@@ -20,13 +20,13 @@ function Header() {
             <li className='hover:text-hoverColor cursor-pointer duration-300'>
                 <a href="#">Home</a>
             </li >
-            <li className='navbarli'>
+            <li className='hover:text-hoverColor cursor-pointer duration-300'>
                 <a href="#">Team</a>
             </li>
-            <li className='navbarli'>
+            <li className='hover:text-hoverColor cursor-pointer duration-300'>
                 <a href="#">profile</a>
             </li>
-            <li className='navbarli'>
+            <li className='hover:text-hoverColor cursor-pointer duration-300'>
                 <a href="#">About</a>
             </li>
             
