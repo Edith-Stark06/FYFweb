@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @layer components{
-    .navli{
+    .navbarli{
         @apply hover:text-hoverColor cursor-pointer duration-300;
+
     }
 }
 :root{

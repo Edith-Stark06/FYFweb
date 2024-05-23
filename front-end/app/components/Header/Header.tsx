@@ -17,21 +17,23 @@ function Header() {
         </div>
         <div className='max-w-sceen-2xl h-full mx-auto px-4 flex items-center justify-between'>
         <ul className=" nav-items flex item-center gap-6 uppercase text-sm font-semibold">
-            <li className="navli">
+            <li className='hover:text-hoverColor cursor-pointer duration-300'>
                 <a href="#">Home</a>
             </li >
-            <li className='navli'>
+            <li className='navbarli'>
                 <a href="#">Team</a>
             </li>
-            <li className='navli'>
+            <li className='navbarli'>
                 <a href="#">profile</a>
             </li>
-            <li className='navli'>
+            <li className='navbarli'>
                 <a href="#">About</a>
             </li>
-            <Button />
+            
+            
         </ul>
         </div>
+        <div><Button /></div>
     </nav>
   </HeaderStyled>
   </div>
