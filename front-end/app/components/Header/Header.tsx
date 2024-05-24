@@ -8,7 +8,7 @@ import styled from 'styled-components';
 function Header() {
   return( 
   
-    <div className='w-full h-96 bg-cover bg-banner-bg'>
+    <div className='w-full h-full bg-cover bg-banner-bg'>
     <HeaderStyled>
     <nav>
         <div className="logo">
@@ -60,7 +60,7 @@ nav{
         li{
             transition: all 0.2s ease-in-out;
             &:hover{
-                color:white;
+                color:Black;
                 transform:scale(1.1);
             }
         }
