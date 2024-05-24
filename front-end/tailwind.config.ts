@@ -10,7 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "banner-bg":"url('../public/bg3.webp')",
+        
        
       },
     },
